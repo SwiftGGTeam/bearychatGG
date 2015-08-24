@@ -51,14 +51,14 @@ def cal_new_data(old_data, full_data):
     return set(full_data) - set(old_data)
 
 def check():
-    old_data = read_old_data("natashatherobot_profile")
+    old_data = read_old_data("appleblog_profile")
     html = get_html_data()
     new_data = cal_new_data(old_data, get_full_data(html, "item"))
     if new_data:
-        send_data = {"text": concat_data("Natasha The Robot", new_data), "markdown": True}
+        send_data = {"text": concat_data("苹果官方博客", new_data), "markdown": True}
         params = simplejson.JSONEncoder().encode(send_data).encode('utf8')
         req = urllib.request.Request(bearychat_url, data=params, headers={'content-type': 'application/json'})
         response = urllib.request.urlopen(req)
-        write_new_data("natashatherobot_profile", new_data)
+        write_new_data("appleblog_profile", new_data)
 
 check()
