@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import urllib.request
 import simplejson
 import xml.etree.ElementTree as ET
+import ssl
+from subprocess import call
 
 
 bearychat_url = "https://hook.bearychat.com/=bw6L9/incoming/e36b4dfc18160d22f0327ce5fb74d5e6"
@@ -36,8 +38,10 @@ def write_new_data(filename, data):
     profile.close()
 
 def get_html_data():
-    f = urllib.request.urlopen("http://natashatherobot.com/feed/")
-    soup = ET.fromstring(f.read()) # .decode('gbk', 'ignore').encode('utf-8', 'ignore')
+    call(["rm", "/bearychatGG/news.rss"])
+    call(["wget", "-P", "/bearychatGG/", "https://developer.apple.com/swift/blog/news.rss"])
+    with open('/bearychatGG/news.rss', 'r') as f:
+        soup = ET.fromstring(f.read()) # .decode('gbk', 'ignore').encode('utf-8', 'ignore')
     return soup
 
 def get_full_data(html, tag):
