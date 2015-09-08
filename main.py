@@ -30,7 +30,29 @@ def ts_get_full_data(html, class_):
         full_data.append(post.h2.a["href"].strip().replace(u'\xa0', u' ') + "GGBREAK" + post.h2.a.get_text().strip().replace(u'\xa0', u' '))
     return full_data
 
+def wj_get_full_data(html, class_):
+    titles = html.find_all("h2")
+    full_data = []
+    for title in titles:
+        full_data.append(title.a["href"].strip().replace(u'\xa0', u' ') + "GGBREAK" + title.a.get_text().strip().replace(u'\xa0', u' '))
+    return full_data
+
 def o_get_full_data(html, tag):
+    full_data = []
+    items = [item for item in html if item.tag.endswith("entry")]
+    for item in items:
+        for i in item:
+            if i.tag.endswith("title"):
+                title = i.text
+                break
+        for i in item:
+            if i.tag.endswith("link"):
+                link = i.attrib["href"]
+                break
+        full_data.append(link.strip().replace(u'\xa0', u' ') + "GGBREAK" + title.strip().replace(u'\xa0', u' '))
+    return full_data
+
+def radex_get_full_data(html, tag):
     full_data = []
     items = [item for item in html if item.tag.endswith("entry")]
     for item in items:
@@ -134,6 +156,27 @@ authorized = [
         "anchors": ["article"],
         "get_full_data": jbs_get_full_data,
         "typeis": "html"
+    },
+    {
+        "store_file_name": "appcoda_profile",
+        "url": "http://feeds.feedburner.com/appcoda?format=xml",
+        "msg_title": "[已授权] AppCoda",
+        "typeis": "rss"
+    },
+    {
+        "store_file_name": "woojijuice_profile",
+        "url": "http://www.wooji-juice.com/blog/",
+        "msg_title": "[已授权] Wooji Juice",
+        "anchors": ["h2"],
+        "get_full_data": wj_get_full_data,
+        "typeis": "html"
+    },
+    {
+        "store_file_name": "radex_profile",
+        "url": "http://oleb.net/blog/atom.xml",
+        "msg_title": "[已授权] radex.io",
+        "cus_get_full_data": radex_get_full_data,
+        "typeis": "rss"
     },
 ]
 
