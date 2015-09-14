@@ -67,7 +67,22 @@ def radex_get_full_data(html, tag):
         full_data.append(link.strip().replace(u'\xa0', u' ') + "GGBREAK" + title.strip().replace(u'\xa0', u' '))
     return full_data
 
+def wh_get_full_data(html, class_):
+    titles = html.find_all("h1", class_=class_)
+    full_data = []
+    for title in titles:
+        full_data.append(title.a["href"].strip().replace(u'\xa0', u' ') + "GGBREAK" + title.a.get_text().strip().replace(u'\xa0', u' '))
+    return full_data
+
 authorized = [
+    {
+        "store_file_name": "weston_profile",
+        "url": "http://www.alloc-init.com/",
+        "msg_title": "[已授权] Weston Hanners",
+        "anchors": ["entry-title"],
+        "get_full_data": wh_get_full_data,
+        "typeis": "html"
+    },
     {
         "store_file_name": "natashatherobot_profile",
         "url": "http://natashatherobot.com/feed/",
