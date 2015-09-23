@@ -1,20 +1,21 @@
-http://www.mikeash.com/pyblog/friday-qa-2015-07-03-address-sanitizer.htmlGGBREAKFriday Q&A 2015-07-03: Address Sanitizer
-http://www.mikeash.com/pyblog/friday-qa-2015-05-01-fuzzing-with-afl-fuzz.htmlGGBREAKFriday Q&A 2015-05-01: Fuzzing with afl-fuzz
-http://www.mikeash.com/pyblog/friday-qa-2015-07-17-when-to-use-swift-structs-and-classes.htmlGGBREAKFriday Q&A 2015-07-17: When to Use Swift Structs and Classes
-http://www.mikeash.com/pyblog/friday-qa-2015-06-19-the-best-of-whats-new-in-swift.htmlGGBREAKFriday Q&A 2015-06-19: The Best of What's New in Swift
-http://www.mikeash.com/pyblog/friday-qa-2015-08-14-an-xcode-plugin-for-unsmoothed-text.htmlGGBREAKFriday Q&A 2015-08-14: An Xcode Plugin for Unsmoothed Text
-http://www.mikeash.com/pyblog/friday-qa-2015-07-31-tagged-pointer-strings.htmlGGBREAKFriday Q&A 2015-07-31: Tagged Pointer Strings
-http://www.mikeash.com/pyblog/i-do-not-agree-to-your-terms.htmlGGBREAKI Do Not Agree To Your Terms
 http://www.mikeash.com/pyblog/friday-qa-2015-02-20-lets-build-synchronized.htmlGGBREAKFriday Q&A 2015-02-20: Let's Build @synchronized
-http://www.mikeash.com/pyblog/friday-qa-2015-03-20-preprocessor-abuse-and-optional-parentheses.htmlGGBREAKFriday Q&A 2015-03-20: Preprocessor Abuse and Optional Parentheses
 http://www.mikeash.com/pyblog/friday-qa-2014-11-07-lets-build-nszombie.htmlGGBREAKFriday Q&A 2014-11-07: Let's Build NSZombie
-http://www.mikeash.com/pyblog/friday-qa-2015-02-06-locks-thread-safety-and-swift.htmlGGBREAKFriday Q&A 2015-02-06: Locks, Thread Safety, and Swift
-http://www.mikeash.com/pyblog/friday-qa-2014-08-29-swift-memory-dumping.htmlGGBREAKFriday Q&A 2014-08-29: Swift Memory Dumping
-http://www.mikeash.com/pyblog/friday-qa-2014-08-15-swift-name-mangling.htmlGGBREAKFriday Q&A 2014-08-15: Swift Name Mangling
-http://www.mikeash.com/pyblog/friday-qa-2014-08-01-exploring-swift-memory-layout-part-ii.htmlGGBREAKFriday Q&A 2014-08-01: Exploring Swift Memory Layout, Part II
-http://www.mikeash.com/pyblog/friday-qa-2015-09-04-lets-build-dispatch_queue.htmlGGBREAKFriday Q&A 2015-09-04: Let's Build dispatch_queue
-http://www.mikeash.com/pyblog/friday-qa-2015-05-29-concurrent-memory-deallocation-in-the-objective-c-runtime.htmlGGBREAKFriday Q&A 2015-05-29: Concurrent Memory Deallocation in the Objective-C Runtime
 http://www.mikeash.com/pyblog/friday-qa-2014-07-18-exploring-swift-memory-layout.htmlGGBREAKFriday Q&A 2014-07-18: Exploring Swift Memory Layout
-http://www.mikeash.com/pyblog/friday-qa-2015-04-17-lets-build-swiftarray.htmlGGBREAKFriday Q&A 2015-04-17: Let's Build Swift.Array
-http://www.mikeash.com/pyblog/friday-qa-2015-01-23-lets-build-swift-notifications.htmlGGBREAKFriday Q&A 2015-01-23: Let's Build Swift Notifications
 http://www.mikeash.com/pyblog/a-brief-pause.htmlGGBREAKA Brief Pause
+http://www.mikeash.com/pyblog/friday-qa-2015-05-29-concurrent-memory-deallocation-in-the-objective-c-runtime.htmlGGBREAKFriday Q&A 2015-05-29: Concurrent Memory Deallocation in the Objective-C Runtime
+http://www.mikeash.com/pyblog/friday-qa-2015-01-23-lets-build-swift-notifications.htmlGGBREAKFriday Q&A 2015-01-23: Let's Build Swift Notifications
+http://www.mikeash.com/pyblog/friday-qa-2015-07-31-tagged-pointer-strings.htmlGGBREAKFriday Q&A 2015-07-31: Tagged Pointer Strings
+http://www.mikeash.com/pyblog/friday-qa-2015-06-19-the-best-of-whats-new-in-swift.htmlGGBREAKFriday Q&A 2015-06-19: The Best of What's New in Swift
+http://www.mikeash.com/pyblog/friday-qa-2014-08-01-exploring-swift-memory-layout-part-ii.htmlGGBREAKFriday Q&A 2014-08-01: Exploring Swift Memory Layout, Part II
+http://www.mikeash.com/pyblog/friday-qa-2015-04-17-lets-build-swiftarray.htmlGGBREAKFriday Q&A 2015-04-17: Let's Build Swift.Array
+http://www.mikeash.com/pyblog/friday-qa-2014-08-29-swift-memory-dumping.htmlGGBREAKFriday Q&A 2014-08-29: Swift Memory Dumping
+http://www.mikeash.com/pyblog/i-do-not-agree-to-your-terms.htmlGGBREAKI Do Not Agree To Your Terms
+http://www.mikeash.com/pyblog/friday-qa-2015-05-01-fuzzing-with-afl-fuzz.htmlGGBREAKFriday Q&A 2015-05-01: Fuzzing with afl-fuzz
+http://www.mikeash.com/pyblog/friday-qa-2015-03-20-preprocessor-abuse-and-optional-parentheses.htmlGGBREAKFriday Q&A 2015-03-20: Preprocessor Abuse and Optional Parentheses
+http://www.mikeash.com/pyblog/friday-qa-2015-09-04-lets-build-dispatch_queue.htmlGGBREAKFriday Q&A 2015-09-04: Let's Build dispatch_queue
+http://www.mikeash.com/pyblog/friday-qa-2015-02-06-locks-thread-safety-and-swift.htmlGGBREAKFriday Q&A 2015-02-06: Locks, Thread Safety, and Swift
+http://www.mikeash.com/pyblog/friday-qa-2014-08-15-swift-name-mangling.htmlGGBREAKFriday Q&A 2014-08-15: Swift Name Mangling
+http://www.mikeash.com/pyblog/friday-qa-2015-08-14-an-xcode-plugin-for-unsmoothed-text.htmlGGBREAKFriday Q&A 2015-08-14: An Xcode Plugin for Unsmoothed Text
+http://www.mikeash.com/pyblog/friday-qa-2015-07-17-when-to-use-swift-structs-and-classes.htmlGGBREAKFriday Q&A 2015-07-17: When to Use Swift Structs and Classes
+http://www.mikeash.com/pyblog/friday-qa-2015-07-03-address-sanitizer.htmlGGBREAKFriday Q&A 2015-07-03: Address Sanitizer
+http://www.mikeash.com/pyblog/friday-qa-2015-09-18-building-a-gear-warning-system.htmlGGBREAKFriday Q&A 2015-09-18: Building a Gear Warning System

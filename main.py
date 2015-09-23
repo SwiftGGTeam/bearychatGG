@@ -193,6 +193,12 @@ authorized = [
         "cus_get_full_data": radex_get_full_data,
         "typeis": "rss"
     },
+    {
+        "store_file_name": "nike_profile",
+        "url": "http://feeds.feedburner.com/codingexplorer?format=xml",
+        "msg_title": "[已授权] Coding Explorer Blog",
+        "typeis": "rss"
+    },
 ]
 
 def ray_get_full_data(html, title):
@@ -237,6 +243,7 @@ unauthorized = [
 ]
 
 for i in authorized + unauthorized:
+    print(i['url'])
     if i["typeis"] == "rss":
         check_rss(i)
     elif i["typeis"] == "html":
