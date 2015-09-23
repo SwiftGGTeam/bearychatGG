@@ -173,12 +173,6 @@ authorized = [
         "typeis": "html"
     },
     {
-        "store_file_name": "appcoda_profile",
-        "url": "http://feeds.feedburner.com/appcoda?format=xml",
-        "msg_title": "[已授权] AppCoda",
-        "typeis": "rss"
-    },
-    {
         "store_file_name": "woojijuice_profile",
         "url": "http://www.wooji-juice.com/blog/",
         "msg_title": "[已授权] Wooji Juice",
@@ -197,6 +191,12 @@ authorized = [
         "store_file_name": "nike_profile",
         "url": "http://feeds.feedburner.com/codingexplorer?format=xml",
         "msg_title": "[已授权] Coding Explorer Blog",
+        "typeis": "rss"
+    },
+    {
+        "store_file_name": "appcoda_profile",
+        "url": "http://feeds.feedburner.com/appcoda?format=xml",
+        "msg_title": "[已授权] AppCoda",
         "typeis": "rss"
     },
 ]
